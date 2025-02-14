@@ -1,0 +1,48 @@
+Intelligent Distribution of Fresh Agricultural Products in Smart City
+
+
+IEEE Transactions on Industrial Informatics,Volume:18,Issue:2,Issue Date:February.2022
+
+
+Reduced Distribution Cost
+Increased Customer Satisfaction
+
+
+
+Members
+-------
+RID,
+Distributer,
+Agricultural_Products,	
+City,	
+Address,	
+Locality,	
+Locality_Verbose,	
+Longitude,	
+Latitude,	
+Distributeion_Type,
+hcode
+
+
+
+CREATE TABLE `dsdetails` (
+  `id` int(11) NOT NULL auto_increment,
+  
+RID text,
+Distributer text,
+Agricultural_Products text,	
+City text,	
+Address text,	
+Locality text,	
+Location_Verbose text,	
+Longitude text,	
+Latitude text,	
+Distributeion_Type text,
+hcode text,
+PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+
